@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.nmp.habittrackeranmp.app-mergeDebugResources-47:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Richard293\\.gradle\\caches\\8.13\\transforms\\561eeeb56358b20f3f639b10e87110ff\\transformed\\material-1.12.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                }
+            ]
+        }
+    ]
+}

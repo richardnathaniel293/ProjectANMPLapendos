@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-48:/layout/fragment_dashboard.xml",
+        "source": "com.nmp.habittrackeranmp.app-main-51:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-48:/layout/fragment_login.xml",
+        "source": "com.nmp.habittrackeranmp.app-main-51:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.nmp.habittrackeranmp.app-main-51:/layout/activity_main.xml"
+    }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">HabitTrackerANMP</string>
+    <string name="dashboard_placeholder">Dashboard</string>
+    <string name="login">Login</string>
+    <string name="login_subtitle">Masuk untuk melanjutkan</string>
+    <string name="login_title">Habit Tracker</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <style name="Theme.HabitTrackerANMP" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
