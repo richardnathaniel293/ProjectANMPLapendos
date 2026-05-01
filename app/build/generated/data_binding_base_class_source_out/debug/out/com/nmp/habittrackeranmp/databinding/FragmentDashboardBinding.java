@@ -8,8 +8,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.nmp.habittrackeranmp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,12 +22,25 @@ public final class FragmentDashboardBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView txtDashboard;
+  public final FloatingActionButton fabAddHabit;
+
+  @NonNull
+  public final RecyclerView recHabits;
+
+  @NonNull
+  public final TextView txtDashboardTitle;
+
+  @NonNull
+  public final TextView txtEmptyState;
 
   private FragmentDashboardBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView txtDashboard) {
+      @NonNull FloatingActionButton fabAddHabit, @NonNull RecyclerView recHabits,
+      @NonNull TextView txtDashboardTitle, @NonNull TextView txtEmptyState) {
     this.rootView = rootView;
-    this.txtDashboard = txtDashboard;
+    this.fabAddHabit = fabAddHabit;
+    this.recHabits = recHabits;
+    this.txtDashboardTitle = txtDashboardTitle;
+    this.txtEmptyState = txtEmptyState;
   }
 
   @Override
@@ -55,13 +70,32 @@ public final class FragmentDashboardBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.txtDashboard;
-      TextView txtDashboard = ViewBindings.findChildViewById(rootView, id);
-      if (txtDashboard == null) {
+      id = R.id.fabAddHabit;
+      FloatingActionButton fabAddHabit = ViewBindings.findChildViewById(rootView, id);
+      if (fabAddHabit == null) {
         break missingId;
       }
 
-      return new FragmentDashboardBinding((ConstraintLayout) rootView, txtDashboard);
+      id = R.id.recHabits;
+      RecyclerView recHabits = ViewBindings.findChildViewById(rootView, id);
+      if (recHabits == null) {
+        break missingId;
+      }
+
+      id = R.id.txtDashboardTitle;
+      TextView txtDashboardTitle = ViewBindings.findChildViewById(rootView, id);
+      if (txtDashboardTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.txtEmptyState;
+      TextView txtEmptyState = ViewBindings.findChildViewById(rootView, id);
+      if (txtEmptyState == null) {
+        break missingId;
+      }
+
+      return new FragmentDashboardBinding((ConstraintLayout) rootView, fabAddHabit, recHabits,
+          txtDashboardTitle, txtEmptyState);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

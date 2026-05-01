@@ -5,5 +5,13 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
-    <string name="dashboard_placeholder">Dashboard</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_empty_state">Belum ada habit. Tekan tombol + untuk menambahkan habit baru.</string>
+    <string name="add_habit">Tambah habit</string>
+    <string name="in_progress">In Progress</string>
+    <string name="completed">Completed</string>
+    <string name="completed_mark">\u2713</string>
+    <string name="habit_icon">Icon habit</string>
+    <string name="progress_label">Progress</string>
+    <string name="habit_progress_detail_format">%1$d / %2$d %3$s</string>
 </resources>

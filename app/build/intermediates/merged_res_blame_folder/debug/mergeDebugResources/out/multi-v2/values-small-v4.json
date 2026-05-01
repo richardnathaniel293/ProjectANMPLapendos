@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.nmp.habittrackeranmp.app-mergeDebugResources-47:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.nmp.habittrackeranmp.app-mergeDebugResources-48:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Richard293\\.gradle\\caches\\8.13\\transforms\\561eeeb56358b20f3f639b10e87110ff\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Richard293\\.gradle\\caches\\8.13\\transforms\\fe6573706664f8bcc12c70f894f1f4c5\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

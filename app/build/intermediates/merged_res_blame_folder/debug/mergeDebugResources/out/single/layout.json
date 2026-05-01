@@ -1,14 +1,26 @@
 [
     {
-        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-48:/layout/fragment_dashboard.xml",
-        "source": "com.nmp.habittrackeranmp.app-main-51:/layout/fragment_dashboard.xml"
+        "merged": "C:\\Users\\Richard293\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-mergeDebugResources-49:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\Richard293\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\fragment_login.xml"
     },
     {
-        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-48:/layout/fragment_login.xml",
-        "source": "com.nmp.habittrackeranmp.app-main-51:/layout/fragment_login.xml"
+        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-49:/layout/fragment_dashboard.xml",
+        "source": "com.nmp.habittrackeranmp.app-main-52:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-48:/layout/activity_main.xml",
-        "source": "com.nmp.habittrackeranmp.app-main-51:/layout/activity_main.xml"
+        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-49:/layout/item_habit.xml",
+        "source": "com.nmp.habittrackeranmp.app-main-52:/layout/item_habit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richard293\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-mergeDebugResources-49:\\layout\\item_habit.xml",
+        "source": "C:\\Users\\Richard293\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\item_habit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richard293\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-mergeDebugResources-49:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Richard293\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richard293\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-mergeDebugResources-49:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\Richard293\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\fragment_dashboard.xml"
     }
 ]
