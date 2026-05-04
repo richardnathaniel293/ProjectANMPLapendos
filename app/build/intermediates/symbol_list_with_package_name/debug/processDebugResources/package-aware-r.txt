@@ -3247,6 +3247,7 @@ id action_bar_subtitle
 id action_bar_title
 id action_container
 id action_context_bar
+id action_dashboardFragment_to_newHabitFragment
 id action_divider
 id action_image
 id action_loginFragment_to_dashboardFragment
@@ -3289,6 +3290,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnBack
+id btnCreateHabit
 id btnLogin
 id btnMinus
 id btnPlus
@@ -3298,6 +3301,7 @@ id callMeasure
 id cancel_button
 id cardHabit
 id cardIcon
+id cardNewHabit
 id carryVelocity
 id center
 id centerCrop
@@ -3437,6 +3441,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layoutToolbar
 id left
 id leftToRight
 id legacy
@@ -3522,6 +3527,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id newHabitFragment
 id noScroll
 id noState
 id none
@@ -3590,6 +3596,7 @@ id screen
 id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
+id scrollNewHabit
 id scrollView
 id scrollable
 id search_badge
@@ -3622,6 +3629,7 @@ id snackbar_text
 id snap
 id snapMargins
 id south
+id spIcon
 id spacer
 id special_effects_controller_view_tag
 id spline
@@ -3694,9 +3702,13 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtAddNewHabit
+id txtChooseIcon
 id txtCompletedMark
 id txtDashboardTitle
 id txtEmptyState
+id txtGoal
+id txtGoalHelper
 id txtHabitDescription
 id txtHabitName
 id txtIcon
@@ -3705,6 +3717,9 @@ id txtProgressValue
 id txtStatus
 id txtSubtitle
 id txtTitle
+id txtToolbarTitle
+id txtUnit
+id txtUnitHelper
 id unchecked
 id uniform
 id unlabeled
@@ -3864,6 +3879,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_dashboard
 layout fragment_login
+layout fragment_new_habit
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_habit
@@ -3960,9 +3976,11 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string add_habit
+string add_new_habit
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string back_arrow
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3979,9 +3997,12 @@ string call_notification_screening_text
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string choose_icon
 string clear_text_end_icon_content_description
 string completed
 string completed_mark
+string create_habit
+string create_new_habit
 string dashboard_empty_state
 string dashboard_title
 string dest_title
@@ -3990,8 +4011,16 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string goal_helper
+string habit_description
+string habit_description_required
+string habit_goal
+string habit_goal_required
 string habit_icon
+string habit_name
+string habit_name_required
 string habit_progress_detail_format
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string in_progress
@@ -4112,9 +4141,12 @@ string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string select_icon
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string unit_helper
+string unit_required
 string username
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

@@ -1,12 +1,12 @@
-#Fri May 01 20:54:11 WIB 2026
-base.0=C\:\\Users\\Richard293\\AndroidStudioProjects\\HabitTrackerANMP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Richard293\\AndroidStudioProjects\\HabitTrackerANMP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Richard293\\AndroidStudioProjects\\HabitTrackerANMP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.3=C\:\\Users\\Richard293\\AndroidStudioProjects\\HabitTrackerANMP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.4=C\:\\Users\\Richard293\\AndroidStudioProjects\\HabitTrackerANMP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.5=C\:\\Users\\Richard293\\AndroidStudioProjects\\HabitTrackerANMP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.6=C\:\\Users\\Richard293\\AndroidStudioProjects\\HabitTrackerANMP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.7=C\:\\Users\\Richard293\\AndroidStudioProjects\\HabitTrackerANMP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Mon May 04 22:41:53 ICT 2026
+base.0=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.4=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.5=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.6=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.7=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex

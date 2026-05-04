@@ -1,1 +1,1 @@
-[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.nmp.habittrackeranmp.view.LoginFragmentDirections"]}]
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.nmp.habittrackeranmp.view.LoginFragmentDirections","com.nmp.habittrackeranmp.view.DashboardFragmentDirections"]}]
