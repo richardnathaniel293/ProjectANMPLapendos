@@ -14,4 +14,20 @@
     <string name="habit_icon">Icon habit</string>
     <string name="progress_label">Progress</string>
     <string name="habit_progress_detail_format">%1$d / %2$d %3$s</string>
+    <string name="back_arrow">‹</string>
+    <string name="create_new_habit">Create New Habit</string>
+    <string name="add_new_habit">Add a New Habit</string>
+    <string name="habit_name">Habit Name</string>
+    <string name="habit_name_required">Habit Name *</string>
+    <string name="habit_description">Short Description</string>
+    <string name="habit_description_required">Short Description *</string>
+    <string name="habit_goal">Goal</string>
+    <string name="habit_goal_required">Goal *</string>
+    <string name="goal_helper">How many to complete this task?</string>
+    <string name="unit_required">Unit *</string>
+    <string name="unit_helper">e.g. glasses, minutes, pages, meals</string>
+    <string name="choose_icon">Choose Icon</string>
+    <string name="select_icon">Select Icon *</string>
+    <string name="create_habit">Create Habit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
