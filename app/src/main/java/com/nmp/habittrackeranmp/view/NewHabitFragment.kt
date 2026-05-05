@@ -7,13 +7,17 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.nmp.habittrackeranmp.databinding.FragmentNewHabitBinding
+import com.nmp.habittrackeranmp.viewmodel.NewHabitViewModel
 
 class NewHabitFragment : Fragment() {
 
     private var _binding: FragmentNewHabitBinding? = null
     private val binding get() = _binding!!
+
+    private val viewModel: NewHabitViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -34,11 +38,29 @@ class NewHabitFragment : Fragment() {
         }
 
         binding.btnCreateHabit.setOnClickListener {
-            Toast.makeText(
-                requireContext(),
-                "",
-                Toast.LENGTH_SHORT
-            ).show()
+            val name = binding.txtHabitName.text.toString()
+            val desc = binding.txtHabitDescription.text.toString()
+            val goal = binding.txtGoal.text.toString().toIntOrNull() ?: 0
+            val icon = binding.spIcon.selectedItem.toString()
+
+            viewModel.createHabit(name, desc, goal, icon)
+        }
+
+        observeViewModel()
+    }
+
+    private fun observeViewModel() {
+        viewModel.createSuccess.observe(viewLifecycleOwner) {
+            if (it == true) {
+                Toast.makeText(requireContext(), "Habit berhasil dibuat", Toast.LENGTH_SHORT).show()
+                findNavController().popBackStack()
+            }
+        }
+
+        viewModel.errorMessage.observe(viewLifecycleOwner) {
+            if (it != null) {
+                Toast.makeText(requireContext(), it, Toast.LENGTH_SHORT).show()
+            }
         }
     }
 

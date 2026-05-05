@@ -1,12 +1,13 @@
-#Mon May 04 22:41:53 ICT 2026
-base.0=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.3=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.4=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.5=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.6=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.7=C\:\\Users\\ASUS\\Downloads\\KULIAH UBAYA\\SEMESTER 6\\ANMP\\UTS\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Tue May 05 21:57:31 WIB 2026
+base.0=C\:\\Users\\Clarence\\AndroidStudioProjects\\ProjectANMPLapendos\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Clarence\\AndroidStudioProjects\\ProjectANMPLapendos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\Clarence\\AndroidStudioProjects\\ProjectANMPLapendos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\Users\\Clarence\\AndroidStudioProjects\\ProjectANMPLapendos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.4=C\:\\Users\\Clarence\\AndroidStudioProjects\\ProjectANMPLapendos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.5=C\:\\Users\\Clarence\\AndroidStudioProjects\\ProjectANMPLapendos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.6=C\:\\Users\\Clarence\\AndroidStudioProjects\\ProjectANMPLapendos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.7=C\:\\Users\\Clarence\\AndroidStudioProjects\\ProjectANMPLapendos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.8=C\:\\Users\\Clarence\\AndroidStudioProjects\\ProjectANMPLapendos\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex
@@ -14,7 +15,8 @@ path.3=15/classes.dex
 path.4=2/classes.dex
 path.5=4/classes.dex
 path.6=5/classes.dex
-path.7=classes2.dex
+path.7=7/classes.dex
+path.8=classes2.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
@@ -23,3 +25,4 @@ renamed.4=classes5.dex
 renamed.5=classes6.dex
 renamed.6=classes7.dex
 renamed.7=classes8.dex
+renamed.8=classes9.dex
