@@ -3089,6 +3089,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_back_black_24
+drawable ic_book
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -3097,17 +3098,20 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_fitness
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
+drawable ic_meditation
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable ic_water
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3426,6 +3430,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imgIcon
 id immediateStop
 id included
 id indeterminate
@@ -3711,7 +3716,6 @@ id txtGoal
 id txtGoalHelper
 id txtHabitDescription
 id txtHabitName
-id txtIcon
 id txtProgressLabel
 id txtProgressValue
 id txtStatus

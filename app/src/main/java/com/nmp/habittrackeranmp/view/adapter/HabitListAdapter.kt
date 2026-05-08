@@ -1,6 +1,7 @@
 package com.nmp.habittrackeranmp.view.adapter
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
@@ -29,7 +30,7 @@ class HabitListAdapter(
         val habit = habits[position]
         val context = holder.itemView.context
 
-        holder.binding.txtIcon.text = habit.icon
+        holder.binding.imgIcon.setImageResource(getHabitIcon(habit.icon))
         holder.binding.txtHabitName.text = habit.name
         holder.binding.txtHabitDescription.text = habit.description
         holder.binding.txtProgressValue.text = context.getString(
@@ -49,8 +50,10 @@ class HabitListAdapter(
             )
             holder.binding.cardHabit.strokeColor =
                 ContextCompat.getColor(context, R.color.card_completed_stroke)
-            holder.binding.viewCompletedIndicator.visibility = android.view.View.VISIBLE
-            holder.binding.txtCompletedMark.visibility = android.view.View.VISIBLE
+
+            holder.binding.viewCompletedIndicator.visibility = View.VISIBLE
+            holder.binding.txtCompletedMark.visibility = View.VISIBLE
+
             holder.binding.progressHabit.progressDrawable =
                 ContextCompat.getDrawable(context, R.drawable.progress_completed)
             holder.binding.btnPlus.isEnabled = false
@@ -73,8 +76,8 @@ class HabitListAdapter(
             )
             holder.binding.cardHabit.strokeColor =
                 ContextCompat.getColor(context, R.color.card_default_stroke)
-            holder.binding.viewCompletedIndicator.visibility = android.view.View.GONE
-            holder.binding.txtCompletedMark.visibility = android.view.View.GONE
+            holder.binding.viewCompletedIndicator.visibility = View.GONE
+            holder.binding.txtCompletedMark.visibility = View.GONE
             holder.binding.progressHabit.progressDrawable =
                 ContextCompat.getDrawable(context, R.drawable.progress_in_progress)
             holder.binding.btnPlus.isEnabled = true
@@ -99,11 +102,23 @@ class HabitListAdapter(
         }
     }
 
-    override fun getItemCount(): Int = habits.size
+    override fun getItemCount(): Int {
+        return habits.size
+    }
 
     fun updateHabitList(newList: List<Habit>) {
         habits.clear()
         habits.addAll(newList)
         notifyDataSetChanged()
+    }
+
+    private fun getHabitIcon(icon: String): Int {
+        return when (icon) {
+            "Drink Water" -> R.drawable.ic_water
+            "Exercise" -> R.drawable.ic_fitness
+            "Read Books" -> R.drawable.ic_book
+            "Meditation" -> R.drawable.ic_meditation
+            else -> R.drawable.ic_water
+        }
     }
 }

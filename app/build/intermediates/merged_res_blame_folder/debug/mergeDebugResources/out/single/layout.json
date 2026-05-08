@@ -1,22 +1,30 @@
 [
     {
-        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-49:/layout/fragment_dashboard.xml",
-        "source": "com.nmp.habittrackeranmp.app-main-52:/layout/fragment_dashboard.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-mergeDebugResources-49:\\layout\\item_habit.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\item_habit.xml"
+    },
+    {
+        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-49:/layout/fragment_habit_list_adapter.xml",
+        "source": "com.nmp.habittrackeranmp.app-main-52:/layout/fragment_habit_list_adapter.xml"
     },
     {
         "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-49:/layout/item_habit.xml",
         "source": "com.nmp.habittrackeranmp.app-main-52:/layout/item_habit.xml"
     },
     {
-        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-49:/layout/fragment_login.xml",
-        "source": "com.nmp.habittrackeranmp.app-main-52:/layout/fragment_login.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-mergeDebugResources-49:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\fragment_dashboard.xml"
     },
     {
-        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-49:/layout/activity_main.xml",
-        "source": "com.nmp.habittrackeranmp.app-main-52:/layout/activity_main.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-mergeDebugResources-49:\\layout\\fragment_new_habit.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\fragment_new_habit.xml"
     },
     {
-        "merged": "com.nmp.habittrackeranmp.app-mergeDebugResources-49:/layout/fragment_new_habit.xml",
-        "source": "com.nmp.habittrackeranmp.app-main-52:/layout/fragment_new_habit.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-mergeDebugResources-49:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-mergeDebugResources-49:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\fragment_login.xml"
     }
 ]

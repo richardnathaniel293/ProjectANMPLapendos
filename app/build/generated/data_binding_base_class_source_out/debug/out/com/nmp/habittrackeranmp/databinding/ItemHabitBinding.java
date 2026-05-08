@@ -4,6 +4,7 @@ package com.nmp.habittrackeranmp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -34,6 +35,9 @@ public final class ItemHabitBinding implements ViewBinding {
   public final MaterialCardView cardIcon;
 
   @NonNull
+  public final ImageView imgIcon;
+
+  @NonNull
   public final ProgressBar progressHabit;
 
   @NonNull
@@ -44,9 +48,6 @@ public final class ItemHabitBinding implements ViewBinding {
 
   @NonNull
   public final TextView txtHabitName;
-
-  @NonNull
-  public final TextView txtIcon;
 
   @NonNull
   public final TextView txtProgressLabel;
@@ -62,21 +63,21 @@ public final class ItemHabitBinding implements ViewBinding {
 
   private ItemHabitBinding(@NonNull MaterialCardView rootView, @NonNull MaterialButton btnMinus,
       @NonNull MaterialButton btnPlus, @NonNull MaterialCardView cardHabit,
-      @NonNull MaterialCardView cardIcon, @NonNull ProgressBar progressHabit,
-      @NonNull TextView txtCompletedMark, @NonNull TextView txtHabitDescription,
-      @NonNull TextView txtHabitName, @NonNull TextView txtIcon, @NonNull TextView txtProgressLabel,
-      @NonNull TextView txtProgressValue, @NonNull TextView txtStatus,
-      @NonNull View viewCompletedIndicator) {
+      @NonNull MaterialCardView cardIcon, @NonNull ImageView imgIcon,
+      @NonNull ProgressBar progressHabit, @NonNull TextView txtCompletedMark,
+      @NonNull TextView txtHabitDescription, @NonNull TextView txtHabitName,
+      @NonNull TextView txtProgressLabel, @NonNull TextView txtProgressValue,
+      @NonNull TextView txtStatus, @NonNull View viewCompletedIndicator) {
     this.rootView = rootView;
     this.btnMinus = btnMinus;
     this.btnPlus = btnPlus;
     this.cardHabit = cardHabit;
     this.cardIcon = cardIcon;
+    this.imgIcon = imgIcon;
     this.progressHabit = progressHabit;
     this.txtCompletedMark = txtCompletedMark;
     this.txtHabitDescription = txtHabitDescription;
     this.txtHabitName = txtHabitName;
-    this.txtIcon = txtIcon;
     this.txtProgressLabel = txtProgressLabel;
     this.txtProgressValue = txtProgressValue;
     this.txtStatus = txtStatus;
@@ -130,6 +131,12 @@ public final class ItemHabitBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imgIcon;
+      ImageView imgIcon = ViewBindings.findChildViewById(rootView, id);
+      if (imgIcon == null) {
+        break missingId;
+      }
+
       id = R.id.progressHabit;
       ProgressBar progressHabit = ViewBindings.findChildViewById(rootView, id);
       if (progressHabit == null) {
@@ -151,12 +158,6 @@ public final class ItemHabitBinding implements ViewBinding {
       id = R.id.txtHabitName;
       TextView txtHabitName = ViewBindings.findChildViewById(rootView, id);
       if (txtHabitName == null) {
-        break missingId;
-      }
-
-      id = R.id.txtIcon;
-      TextView txtIcon = ViewBindings.findChildViewById(rootView, id);
-      if (txtIcon == null) {
         break missingId;
       }
 
@@ -185,7 +186,7 @@ public final class ItemHabitBinding implements ViewBinding {
       }
 
       return new ItemHabitBinding((MaterialCardView) rootView, btnMinus, btnPlus, cardHabit,
-          cardIcon, progressHabit, txtCompletedMark, txtHabitDescription, txtHabitName, txtIcon,
+          cardIcon, imgIcon, progressHabit, txtCompletedMark, txtHabitDescription, txtHabitName,
           txtProgressLabel, txtProgressValue, txtStatus, viewCompletedIndicator);
     }
     String missingId = rootView.getResources().getResourceName(id);

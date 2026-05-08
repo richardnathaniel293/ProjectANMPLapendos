@@ -31,8 +31,12 @@ color white
 drawable bg_completed_side_indicator
 drawable bg_status_completed_chip
 drawable bg_status_in_progress_chip
+drawable ic_book
+drawable ic_fitness
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_meditation
+drawable ic_water
 drawable progress_completed
 drawable progress_in_progress
 id action_dashboardFragment_to_newHabitFragment
@@ -49,6 +53,7 @@ id dashboardFragment
 id edtPassword
 id edtUsername
 id fabAddHabit
+id imgIcon
 id inputPassword
 id inputUsername
 id layoutToolbar
@@ -69,7 +74,6 @@ id txtGoal
 id txtGoalHelper
 id txtHabitDescription
 id txtHabitName
-id txtIcon
 id txtProgressLabel
 id txtProgressValue
 id txtStatus
