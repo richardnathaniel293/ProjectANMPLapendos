@@ -48,9 +48,13 @@ class LoginFragment : Fragment() {
 
         viewModel.loginSuccess.observe(viewLifecycleOwner) { success ->
             if (success == true) {
-                findNavController().navigate(R.id.action_loginFragment_to_dashboardFragment)
+                if (findNavController().currentDestination?.id == R.id.loginFragment) {
+                    findNavController().navigate(R.id.action_loginFragment_to_dashboardFragment)
+                }
             }
         }
+
+        viewModel.checkSession()
     }
 
     override fun onDestroyView() {

@@ -1,53 +1,60 @@
-com.nmp.habittrackeranmp.app-core-runtime-2.2.0-0 C:\Users\ASUS\.gradle\caches\8.13\transforms\0223abe56981b102d83442e8560b2ad4\transformed\core-runtime-2.2.0\res
-com.nmp.habittrackeranmp.app-lifecycle-runtime-ktx-release-1 C:\Users\ASUS\.gradle\caches\8.13\transforms\1edf470c14becf4b17f3224a27953fca\transformed\lifecycle-runtime-ktx-release\res
-com.nmp.habittrackeranmp.app-savedstate-ktx-1.2.1-2 C:\Users\ASUS\.gradle\caches\8.13\transforms\1f0f970252bcded8c9be6e4845309869\transformed\savedstate-ktx-1.2.1\res
-com.nmp.habittrackeranmp.app-lifecycle-viewmodel-savedstate-2.8.7-3 C:\Users\ASUS\.gradle\caches\8.13\transforms\282158ac64c28eb2f1df3516c5da51d0\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
-com.nmp.habittrackeranmp.app-lifecycle-livedata-core-ktx-2.8.7-4 C:\Users\ASUS\.gradle\caches\8.13\transforms\287ecaeb1dac608c1cf8cb80b434030b\transformed\lifecycle-livedata-core-ktx-2.8.7\res
-com.nmp.habittrackeranmp.app-lifecycle-livedata-ktx-2.8.7-5 C:\Users\ASUS\.gradle\caches\8.13\transforms\34de3b340fd7643b7bd9f082b554547e\transformed\lifecycle-livedata-ktx-2.8.7\res
-com.nmp.habittrackeranmp.app-navigation-ui-ktx-2.7.1-6 C:\Users\ASUS\.gradle\caches\8.13\transforms\350280c6961ad47cf2488d2be3563573\transformed\navigation-ui-ktx-2.7.1\res
-com.nmp.habittrackeranmp.app-lifecycle-livedata-core-2.8.7-7 C:\Users\ASUS\.gradle\caches\8.13\transforms\37308d17cb4a0385ecb35b7716d3f08a\transformed\lifecycle-livedata-core-2.8.7\res
-com.nmp.habittrackeranmp.app-lifecycle-viewmodel-release-8 C:\Users\ASUS\.gradle\caches\8.13\transforms\37814281fc566ec7cd1bc9ea7016cbeb\transformed\lifecycle-viewmodel-release\res
-com.nmp.habittrackeranmp.app-emoji2-views-helper-1.3.0-9 C:\Users\ASUS\.gradle\caches\8.13\transforms\3ca05d80d7dc797c5f54c3af0a1116a0\transformed\emoji2-views-helper-1.3.0\res
-com.nmp.habittrackeranmp.app-navigation-runtime-2.7.1-10 C:\Users\ASUS\.gradle\caches\8.13\transforms\3e172e06bf40c25c26f1e0259b855d8c\transformed\navigation-runtime-2.7.1\res
-com.nmp.habittrackeranmp.app-startup-runtime-1.1.1-11 C:\Users\ASUS\.gradle\caches\8.13\transforms\43f47c8239a2acbba6aa1661a85aa32d\transformed\startup-runtime-1.1.1\res
-com.nmp.habittrackeranmp.app-transition-1.5.0-12 C:\Users\ASUS\.gradle\caches\8.13\transforms\4ac0963c8f884d44ed5d02f360283699\transformed\transition-1.5.0\res
-com.nmp.habittrackeranmp.app-navigation-ui-2.7.1-13 C:\Users\ASUS\.gradle\caches\8.13\transforms\4ac2f2eafd5d96dfbef6903c9db9f348\transformed\navigation-ui-2.7.1\res
-com.nmp.habittrackeranmp.app-navigation-fragment-ktx-2.7.1-14 C:\Users\ASUS\.gradle\caches\8.13\transforms\4b65465bc8a4ecde15154c709bc5b1d8\transformed\navigation-fragment-ktx-2.7.1\res
-com.nmp.habittrackeranmp.app-lifecycle-runtime-release-15 C:\Users\ASUS\.gradle\caches\8.13\transforms\4f213d2e33c8de568a666dea16191914\transformed\lifecycle-runtime-release\res
-com.nmp.habittrackeranmp.app-core-1.15.0-16 C:\Users\ASUS\.gradle\caches\8.13\transforms\50de2dea81d7015238d694f84fb9fccb\transformed\core-1.15.0\res
-com.nmp.habittrackeranmp.app-recyclerview-1.3.2-17 C:\Users\ASUS\.gradle\caches\8.13\transforms\5f14ad6fe6c30adeef400cf36349a95b\transformed\recyclerview-1.3.2\res
-com.nmp.habittrackeranmp.app-navigation-common-2.7.1-18 C:\Users\ASUS\.gradle\caches\8.13\transforms\5fc52524dd991fa1e47655028c615b18\transformed\navigation-common-2.7.1\res
-com.nmp.habittrackeranmp.app-activity-1.8.0-19 C:\Users\ASUS\.gradle\caches\8.13\transforms\65d31381ef526630d05c44b59a04a4f6\transformed\activity-1.8.0\res
-com.nmp.habittrackeranmp.app-fragment-ktx-1.6.0-20 C:\Users\ASUS\.gradle\caches\8.13\transforms\68447ef1a859ec68b12faca2d4b07213\transformed\fragment-ktx-1.6.0\res
-com.nmp.habittrackeranmp.app-lifecycle-viewmodel-ktx-2.8.7-21 C:\Users\ASUS\.gradle\caches\8.13\transforms\6b1d30d8941bc3346745d4bd18fc084b\transformed\lifecycle-viewmodel-ktx-2.8.7\res
-com.nmp.habittrackeranmp.app-core-ktx-1.15.0-22 C:\Users\ASUS\.gradle\caches\8.13\transforms\6c2c5766242beee726be52c380db4d19\transformed\core-ktx-1.15.0\res
-com.nmp.habittrackeranmp.app-savedstate-1.2.1-23 C:\Users\ASUS\.gradle\caches\8.13\transforms\70aae14becc8a1ad4fe1a0b188c87abe\transformed\savedstate-1.2.1\res
-com.nmp.habittrackeranmp.app-navigation-common-ktx-2.7.1-24 C:\Users\ASUS\.gradle\caches\8.13\transforms\7764fcba9c6d8e2785fa3cd094e2905d\transformed\navigation-common-ktx-2.7.1\res
-com.nmp.habittrackeranmp.app-emoji2-1.3.0-25 C:\Users\ASUS\.gradle\caches\8.13\transforms\811dfec794f7a04e25b8c29beb2e7263\transformed\emoji2-1.3.0\res
-com.nmp.habittrackeranmp.app-annotation-experimental-1.4.1-26 C:\Users\ASUS\.gradle\caches\8.13\transforms\82282ecf90541f8778a0bc9ddcba124b\transformed\annotation-experimental-1.4.1\res
-com.nmp.habittrackeranmp.app-appcompat-resources-1.7.0-27 C:\Users\ASUS\.gradle\caches\8.13\transforms\82f9b0d8426e62b868865b2f5f722c33\transformed\appcompat-resources-1.7.0\res
-com.nmp.habittrackeranmp.app-lifecycle-livedata-2.8.7-28 C:\Users\ASUS\.gradle\caches\8.13\transforms\84ea8ede4dabfe39444631c1541cdd32\transformed\lifecycle-livedata-2.8.7\res
-com.nmp.habittrackeranmp.app-tracing-1.2.0-29 C:\Users\ASUS\.gradle\caches\8.13\transforms\8b6244ae25899d5dc8c1a8c63a5d157e\transformed\tracing-1.2.0\res
-com.nmp.habittrackeranmp.app-lifecycle-process-2.8.7-30 C:\Users\ASUS\.gradle\caches\8.13\transforms\9de505a70bbd871966b03b136fac83b8\transformed\lifecycle-process-2.8.7\res
-com.nmp.habittrackeranmp.app-customview-poolingcontainer-1.0.0-31 C:\Users\ASUS\.gradle\caches\8.13\transforms\a1f21a7935b7933188bf5b2eb6b72b23\transformed\customview-poolingcontainer-1.0.0\res
-com.nmp.habittrackeranmp.app-navigation-fragment-2.7.1-32 C:\Users\ASUS\.gradle\caches\8.13\transforms\a3faebcbe1bfe8cb84d90814b719bf07\transformed\navigation-fragment-2.7.1\res
-com.nmp.habittrackeranmp.app-fragment-1.6.0-33 C:\Users\ASUS\.gradle\caches\8.13\transforms\a5711d3f28f45c6668f0ecc081a114bb\transformed\fragment-1.6.0\res
-com.nmp.habittrackeranmp.app-cardview-1.0.0-34 C:\Users\ASUS\.gradle\caches\8.13\transforms\a7228612591121d98a24c3079187e165\transformed\cardview-1.0.0\res
-com.nmp.habittrackeranmp.app-appcompat-1.7.0-35 C:\Users\ASUS\.gradle\caches\8.13\transforms\aef65a13b3573eae204f52431ebe1df7\transformed\appcompat-1.7.0\res
-com.nmp.habittrackeranmp.app-constraintlayout-2.2.0-36 C:\Users\ASUS\.gradle\caches\8.13\transforms\b107d6360d182839c5b654684d2f9619\transformed\constraintlayout-2.2.0\res
-com.nmp.habittrackeranmp.app-coordinatorlayout-1.1.0-37 C:\Users\ASUS\.gradle\caches\8.13\transforms\b347a6b542f93ba97bb6c6277adce58e\transformed\coordinatorlayout-1.1.0\res
-com.nmp.habittrackeranmp.app-window-1.0.0-38 C:\Users\ASUS\.gradle\caches\8.13\transforms\cb0c567e829eda2954801939439a9950\transformed\window-1.0.0\res
-com.nmp.habittrackeranmp.app-activity-ktx-1.8.0-39 C:\Users\ASUS\.gradle\caches\8.13\transforms\cdc5629dd93d9be156176aae488e6622\transformed\activity-ktx-1.8.0\res
-com.nmp.habittrackeranmp.app-viewpager2-1.1.0-beta02-40 C:\Users\ASUS\.gradle\caches\8.13\transforms\e432c016d61762705e78d36a22280201\transformed\viewpager2-1.1.0-beta02\res
-com.nmp.habittrackeranmp.app-navigation-runtime-ktx-2.7.1-41 C:\Users\ASUS\.gradle\caches\8.13\transforms\ebd42e5feeb8582e103962efb27b432b\transformed\navigation-runtime-ktx-2.7.1\res
-com.nmp.habittrackeranmp.app-slidingpanelayout-1.2.0-42 C:\Users\ASUS\.gradle\caches\8.13\transforms\f9f94f89174246ff89133e44b2ba07ba\transformed\slidingpanelayout-1.2.0\res
-com.nmp.habittrackeranmp.app-drawerlayout-1.1.1-43 C:\Users\ASUS\.gradle\caches\8.13\transforms\fb00bdfb61966216b8cf3796e0af4396\transformed\drawerlayout-1.1.1\res
-com.nmp.habittrackeranmp.app-profileinstaller-1.4.0-44 C:\Users\ASUS\.gradle\caches\8.13\transforms\fcfbaf0fa411cb9ca82794fc9c7f8d5c\transformed\profileinstaller-1.4.0\res
-com.nmp.habittrackeranmp.app-material-1.12.0-45 C:\Users\ASUS\.gradle\caches\8.13\transforms\fe6573706664f8bcc12c70f894f1f4c5\transformed\material-1.12.0\res
-com.nmp.habittrackeranmp.app-pngs-46 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UTS BARU\ProjectANMPLapendos\app\build\generated\res\pngs\debug
-com.nmp.habittrackeranmp.app-resValues-47 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UTS BARU\ProjectANMPLapendos\app\build\generated\res\resValues\debug
-com.nmp.habittrackeranmp.app-packageDebugResources-48 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UTS BARU\ProjectANMPLapendos\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.nmp.habittrackeranmp.app-packageDebugResources-49 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UTS BARU\ProjectANMPLapendos\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.nmp.habittrackeranmp.app-debug-50 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UTS BARU\ProjectANMPLapendos\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.nmp.habittrackeranmp.app-debug-51 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UTS BARU\ProjectANMPLapendos\app\src\debug\res
-com.nmp.habittrackeranmp.app-main-52 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UTS BARU\ProjectANMPLapendos\app\src\main\res
+com.nmp.habittrackeranmp.app-activity-ktx-1.8.0-0 C:\Users\ASUS\.gradle\caches\8.13\transforms\0130fe83befdf572d9f1cef7931f2e6e\transformed\activity-ktx-1.8.0\res
+com.nmp.habittrackeranmp.app-navigation-fragment-ktx-2.7.1-1 C:\Users\ASUS\.gradle\caches\8.13\transforms\0edf678da7ca98216e23d6ff421883dd\transformed\navigation-fragment-ktx-2.7.1\res
+com.nmp.habittrackeranmp.app-databinding-runtime-8.8.0-2 C:\Users\ASUS\.gradle\caches\8.13\transforms\12212d32a68437ab3e6a8685f93b74d1\transformed\databinding-runtime-8.8.0\res
+com.nmp.habittrackeranmp.app-lifecycle-viewmodel-release-3 C:\Users\ASUS\.gradle\caches\8.13\transforms\1404b6f562df272ace53f801ecf73735\transformed\lifecycle-viewmodel-release\res
+com.nmp.habittrackeranmp.app-viewpager2-1.1.0-beta02-4 C:\Users\ASUS\.gradle\caches\8.13\transforms\14b22e7b2061dbd7025f00ebd41bd9d9\transformed\viewpager2-1.1.0-beta02\res
+com.nmp.habittrackeranmp.app-lifecycle-livedata-2.8.7-5 C:\Users\ASUS\.gradle\caches\8.13\transforms\1591c886a3497579eefa6524822857f0\transformed\lifecycle-livedata-2.8.7\res
+com.nmp.habittrackeranmp.app-navigation-runtime-2.7.1-6 C:\Users\ASUS\.gradle\caches\8.13\transforms\18069d8a4a44c91df3f80b4de9184c38\transformed\navigation-runtime-2.7.1\res
+com.nmp.habittrackeranmp.app-window-1.0.0-7 C:\Users\ASUS\.gradle\caches\8.13\transforms\1b47239a95a108c77745cc9902dcb4a5\transformed\window-1.0.0\res
+com.nmp.habittrackeranmp.app-room-runtime-2.6.1-8 C:\Users\ASUS\.gradle\caches\8.13\transforms\49d8955b2fa2e64435d58cb24efa032c\transformed\room-runtime-2.6.1\res
+com.nmp.habittrackeranmp.app-core-ktx-1.15.0-9 C:\Users\ASUS\.gradle\caches\8.13\transforms\5078d4607ad14b7aed99200be13ad386\transformed\core-ktx-1.15.0\res
+com.nmp.habittrackeranmp.app-navigation-ui-ktx-2.7.1-10 C:\Users\ASUS\.gradle\caches\8.13\transforms\525a7c0e8381d4fb21311cdbd470cfb6\transformed\navigation-ui-ktx-2.7.1\res
+com.nmp.habittrackeranmp.app-lifecycle-process-2.8.7-11 C:\Users\ASUS\.gradle\caches\8.13\transforms\537f022c31b4fcc10b8ab4354fb55729\transformed\lifecycle-process-2.8.7\res
+com.nmp.habittrackeranmp.app-emoji2-views-helper-1.3.0-12 C:\Users\ASUS\.gradle\caches\8.13\transforms\59f4275f513ff86ff4eff32bef77038f\transformed\emoji2-views-helper-1.3.0\res
+com.nmp.habittrackeranmp.app-tracing-1.2.0-13 C:\Users\ASUS\.gradle\caches\8.13\transforms\5a55e14fe72ce5bfd68d7a0d55d132d8\transformed\tracing-1.2.0\res
+com.nmp.habittrackeranmp.app-lifecycle-viewmodel-savedstate-2.8.7-14 C:\Users\ASUS\.gradle\caches\8.13\transforms\5a6a411cce3abc52ec90fc1baf749f2c\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.nmp.habittrackeranmp.app-lifecycle-livedata-ktx-2.8.7-15 C:\Users\ASUS\.gradle\caches\8.13\transforms\62e9bd85d5f81d129f0db31c259dc06f\transformed\lifecycle-livedata-ktx-2.8.7\res
+com.nmp.habittrackeranmp.app-cardview-1.0.0-16 C:\Users\ASUS\.gradle\caches\8.13\transforms\631054f31ce0bbe62c367855f4dc30c7\transformed\cardview-1.0.0\res
+com.nmp.habittrackeranmp.app-emoji2-1.3.0-17 C:\Users\ASUS\.gradle\caches\8.13\transforms\64607e2f23d21b66e1505b12417ca229\transformed\emoji2-1.3.0\res
+com.nmp.habittrackeranmp.app-room-ktx-2.6.1-18 C:\Users\ASUS\.gradle\caches\8.13\transforms\64dc6a45715936543685aee7e60431f5\transformed\room-ktx-2.6.1\res
+com.nmp.habittrackeranmp.app-databinding-adapters-8.8.0-19 C:\Users\ASUS\.gradle\caches\8.13\transforms\6db449be13fb917906c2851160e50a3e\transformed\databinding-adapters-8.8.0\res
+com.nmp.habittrackeranmp.app-material-1.12.0-20 C:\Users\ASUS\.gradle\caches\8.13\transforms\6e8cb7bd5bb5db85df5455f86b23ae87\transformed\material-1.12.0\res
+com.nmp.habittrackeranmp.app-constraintlayout-2.2.0-21 C:\Users\ASUS\.gradle\caches\8.13\transforms\71b75214070a7d3b4ff86b8b3f2f5bfd\transformed\constraintlayout-2.2.0\res
+com.nmp.habittrackeranmp.app-coordinatorlayout-1.1.0-22 C:\Users\ASUS\.gradle\caches\8.13\transforms\7534beb73880ae8117327601e243eabf\transformed\coordinatorlayout-1.1.0\res
+com.nmp.habittrackeranmp.app-startup-runtime-1.1.1-23 C:\Users\ASUS\.gradle\caches\8.13\transforms\8458352f1d62695904225fe00edfe450\transformed\startup-runtime-1.1.1\res
+com.nmp.habittrackeranmp.app-fragment-ktx-1.6.0-24 C:\Users\ASUS\.gradle\caches\8.13\transforms\85f2bcd861c8abc575c34b637eea515c\transformed\fragment-ktx-1.6.0\res
+com.nmp.habittrackeranmp.app-lifecycle-service-2.8.7-25 C:\Users\ASUS\.gradle\caches\8.13\transforms\85f60f8bc797351c00006f6eb4888f58\transformed\lifecycle-service-2.8.7\res
+com.nmp.habittrackeranmp.app-lifecycle-livedata-core-2.8.7-26 C:\Users\ASUS\.gradle\caches\8.13\transforms\90cc427ab9d8fbd97a0ecd4555f3b534\transformed\lifecycle-livedata-core-2.8.7\res
+com.nmp.habittrackeranmp.app-navigation-ui-2.7.1-27 C:\Users\ASUS\.gradle\caches\8.13\transforms\943d27432a2b1c78644b4836ac8e3936\transformed\navigation-ui-2.7.1\res
+com.nmp.habittrackeranmp.app-slidingpanelayout-1.2.0-28 C:\Users\ASUS\.gradle\caches\8.13\transforms\9597c05c58a84e3bd07c18cc7fb50f65\transformed\slidingpanelayout-1.2.0\res
+com.nmp.habittrackeranmp.app-sqlite-framework-2.4.0-29 C:\Users\ASUS\.gradle\caches\8.13\transforms\98b074bc54bcb6b7ee752efc50d39d66\transformed\sqlite-framework-2.4.0\res
+com.nmp.habittrackeranmp.app-savedstate-1.2.1-30 C:\Users\ASUS\.gradle\caches\8.13\transforms\9be9bd72e4d148bd3a2bdd974f8ade68\transformed\savedstate-1.2.1\res
+com.nmp.habittrackeranmp.app-appcompat-resources-1.7.0-31 C:\Users\ASUS\.gradle\caches\8.13\transforms\9f6c670f8b3e17f5bf13897b6a05f21b\transformed\appcompat-resources-1.7.0\res
+com.nmp.habittrackeranmp.app-navigation-common-2.7.1-32 C:\Users\ASUS\.gradle\caches\8.13\transforms\a40e885d26eda91cdbb5e1ecd3587686\transformed\navigation-common-2.7.1\res
+com.nmp.habittrackeranmp.app-navigation-fragment-2.7.1-33 C:\Users\ASUS\.gradle\caches\8.13\transforms\b01179c705b7f6353ed03dbccd71b3a1\transformed\navigation-fragment-2.7.1\res
+com.nmp.habittrackeranmp.app-recyclerview-1.3.2-34 C:\Users\ASUS\.gradle\caches\8.13\transforms\b162127d547c61ff4b660b30ea4aea53\transformed\recyclerview-1.3.2\res
+com.nmp.habittrackeranmp.app-navigation-runtime-ktx-2.7.1-35 C:\Users\ASUS\.gradle\caches\8.13\transforms\b59c7975334865a93c8363f7f65e24b4\transformed\navigation-runtime-ktx-2.7.1\res
+com.nmp.habittrackeranmp.app-annotation-experimental-1.4.1-36 C:\Users\ASUS\.gradle\caches\8.13\transforms\b7614f1bc6c54118c6401b10e14a0d96\transformed\annotation-experimental-1.4.1\res
+com.nmp.habittrackeranmp.app-lifecycle-viewmodel-ktx-2.8.7-37 C:\Users\ASUS\.gradle\caches\8.13\transforms\b7b09c20a4d6b6812108aa0cb3dc30b2\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.nmp.habittrackeranmp.app-savedstate-ktx-1.2.1-38 C:\Users\ASUS\.gradle\caches\8.13\transforms\b8390d8901ee4a657c5faa180eeaf0a3\transformed\savedstate-ktx-1.2.1\res
+com.nmp.habittrackeranmp.app-lifecycle-livedata-core-ktx-2.8.7-39 C:\Users\ASUS\.gradle\caches\8.13\transforms\bc941946429912530d14685eb4121eab\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.nmp.habittrackeranmp.app-sqlite-2.4.0-40 C:\Users\ASUS\.gradle\caches\8.13\transforms\be08a5bd272a433e1a63fbfc58061f45\transformed\sqlite-2.4.0\res
+com.nmp.habittrackeranmp.app-core-1.15.0-41 C:\Users\ASUS\.gradle\caches\8.13\transforms\be9fbdb261a4921f098e9d5d9f541500\transformed\core-1.15.0\res
+com.nmp.habittrackeranmp.app-fragment-1.6.0-42 C:\Users\ASUS\.gradle\caches\8.13\transforms\c6864f94a9cd6519c7895bc97a53ec79\transformed\fragment-1.6.0\res
+com.nmp.habittrackeranmp.app-customview-poolingcontainer-1.0.0-43 C:\Users\ASUS\.gradle\caches\8.13\transforms\c744f87eee087a6b388788d2257f7bd7\transformed\customview-poolingcontainer-1.0.0\res
+com.nmp.habittrackeranmp.app-lifecycle-runtime-release-44 C:\Users\ASUS\.gradle\caches\8.13\transforms\cdb70af1ed7129e5a6e40d87735fe468\transformed\lifecycle-runtime-release\res
+com.nmp.habittrackeranmp.app-appcompat-1.7.0-45 C:\Users\ASUS\.gradle\caches\8.13\transforms\ce2702481aa801fbe2c4b055ed4ee20b\transformed\appcompat-1.7.0\res
+com.nmp.habittrackeranmp.app-drawerlayout-1.1.1-46 C:\Users\ASUS\.gradle\caches\8.13\transforms\cf440985c6bf7c22d1bc28a054f0ae1c\transformed\drawerlayout-1.1.1\res
+com.nmp.habittrackeranmp.app-profileinstaller-1.4.0-47 C:\Users\ASUS\.gradle\caches\8.13\transforms\daff8d44a80af4507164375fb9c9f65a\transformed\profileinstaller-1.4.0\res
+com.nmp.habittrackeranmp.app-activity-1.8.0-48 C:\Users\ASUS\.gradle\caches\8.13\transforms\dc69ff1cef57c1b1fb759f4adda37e43\transformed\activity-1.8.0\res
+com.nmp.habittrackeranmp.app-navigation-common-ktx-2.7.1-49 C:\Users\ASUS\.gradle\caches\8.13\transforms\e7ca095b29c86632f4e5c41a2e28cdaa\transformed\navigation-common-ktx-2.7.1\res
+com.nmp.habittrackeranmp.app-lifecycle-runtime-ktx-release-50 C:\Users\ASUS\.gradle\caches\8.13\transforms\f1ece4f9e6e30f1699fe2b3609903054\transformed\lifecycle-runtime-ktx-release\res
+com.nmp.habittrackeranmp.app-transition-1.5.0-51 C:\Users\ASUS\.gradle\caches\8.13\transforms\f1f5d37242630abdaa1578ad0e7e4cdc\transformed\transition-1.5.0\res
+com.nmp.habittrackeranmp.app-core-runtime-2.2.0-52 C:\Users\ASUS\.gradle\caches\8.13\transforms\f7559e1807ede13a83febd0ae8798572\transformed\core-runtime-2.2.0\res
+com.nmp.habittrackeranmp.app-pngs-53 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UAS\app\build\generated\res\pngs\debug
+com.nmp.habittrackeranmp.app-resValues-54 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UAS\app\build\generated\res\resValues\debug
+com.nmp.habittrackeranmp.app-packageDebugResources-55 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UAS\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.nmp.habittrackeranmp.app-packageDebugResources-56 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UAS\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.nmp.habittrackeranmp.app-debug-57 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UAS\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.nmp.habittrackeranmp.app-debug-58 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UAS\app\src\debug\res
+com.nmp.habittrackeranmp.app-main-59 C:\Users\ASUS\Downloads\KULIAH UBAYA\SEMESTER 6\ANMP\UAS\app\src\main\res

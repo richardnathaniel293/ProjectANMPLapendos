@@ -1,122 +1,118 @@
 [
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\layout_fragment_dashboard.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\fragment_dashboard.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/layout_activity_main.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-anydpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\fragment_login.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/layout_fragment_dashboard.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_ic_fitness.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/ic_fitness.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_bg_status_in_progress_chip.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\bg_status_in_progress_chip.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\layout_fragment_new_habit.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\fragment_new_habit.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/layout_fragment_new_habit.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/layout/fragment_new_habit.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\layout_fragment_habit_list_adapter.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\fragment_habit_list_adapter.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_progress_in_progress.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\progress_in_progress.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/navigation_nav_graph.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/navigation/nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_ic_book.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\ic_book.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_ic_book.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/ic_book.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_bg_status_completed_chip.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/bg_status_completed_chip.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-anydpi/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_bg_status_completed_chip.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\bg_status_completed_chip.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/layout_item_habit.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/layout/item_habit.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\navigation\\nav_graph.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_progress_completed.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\progress_completed.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_ic_water.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/ic_water.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/layout_fragment_login.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/layout/fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_ic_fitness.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\ic_fitness.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_ic_meditation.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/ic_meditation.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_ic_water.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\ic_water.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_bg_status_in_progress_chip.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/bg_status_in_progress_chip.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_bg_completed_side_indicator.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\bg_completed_side_indicator.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_progress_in_progress.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/progress_in_progress.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\drawable_ic_meditation.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\drawable\\ic_meditation.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_bg_completed_side_indicator.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/bg_completed_side_indicator.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\activity_main.xml"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/drawable_progress_completed.xml.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/drawable/progress_completed.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\layout_item_habit.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\layout\\item_habit.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-debug-50:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.13\\com.nmp.habittrackeranmp.app-main-52:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.nmp.habittrackeranmp.app-debug-57:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.nmp.habittrackeranmp.app-main-59:/mipmap-mdpi/ic_launcher.webp"
     }
 ]

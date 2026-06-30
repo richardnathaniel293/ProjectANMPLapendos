@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_completed_stroke">#B6DDB5</color>
+    <color name="card_default_stroke">#E0E0E0</color>
+    <color name="completed_check_background">#D7F1D6</color>
+    <color name="control_disabled_background">#ECECEC</color>
+    <color name="control_disabled_text">#C0C0C0</color>
+    <color name="control_minus_background">#ECECEC</color>
+    <color name="control_minus_text">#888888</color>
+    <color name="control_plus_background">#6026E6</color>
+    <color name="control_plus_text">#FFFFFF</color>
+    <color name="icon_container_background">#EEE9F8</color>
+    <color name="progress_completed_fill">#66A866</color>
+    <color name="progress_completed_track">#CFE8CD</color>
+    <color name="progress_in_progress_fill">#6026E6</color>
+    <color name="progress_in_progress_track">#E4DBF8</color>
+    <color name="screen_background">#F1F1F1</color>
+    <color name="status_completed_background">#6FAE69</color>
+    <color name="status_completed_text">#FFFFFF</color>
+    <color name="status_in_progress_background">#E4E4E4</color>
+    <color name="status_in_progress_text">#333333</color>
+    <color name="text_primary">#222222</color>
+    <color name="text_secondary">#676767</color>
+    <color name="theme_on_primary">#FFFFFF</color>
+    <color name="theme_on_secondary_container">#250D63</color>
+    <color name="theme_primary">#6026E6</color>
+    <color name="theme_secondary_container">#EDE5FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_habit">Tambah habit</string>
+    <string name="add_new_habit">Add a New Habit</string>
+    <string name="app_name">HabitTrackerANMP</string>
+    <string name="back_arrow">‹</string>
+    <string name="choose_icon">Choose Icon</string>
+    <string name="completed">Completed</string>
+    <string name="completed_mark">\u2713</string>
+    <string name="create_habit">Create Habit</string>
+    <string name="create_new_habit">Create New Habit</string>
+    <string name="dashboard_empty_state">Belum ada habit. Tekan tombol + untuk menambahkan habit baru.</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="goal_helper">How many to complete this task?</string>
+    <string name="habit_description">Short Description</string>
+    <string name="habit_description_required">Short Description *</string>
+    <string name="habit_goal">Goal</string>
+    <string name="habit_goal_required">Goal *</string>
+    <string name="habit_icon">Icon habit</string>
+    <string name="habit_name">Habit Name</string>
+    <string name="habit_name_required">Habit Name *</string>
+    <string name="habit_progress_detail_format">%1$d / %2$d %3$s</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="in_progress">In Progress</string>
+    <string name="login">Login</string>
+    <string name="login_subtitle">Masuk untuk melanjutkan</string>
+    <string name="login_title">Habit Tracker</string>
+    <string name="password">Password</string>
+    <string name="progress_label">Progress</string>
+    <string name="select_icon">Select Icon *</string>
+    <string name="unit_helper">e.g. glasses, minutes, pages, meals</string>
+    <string name="unit_required">Unit *</string>
+    <string name="username">Username</string>
+    <style name="ShapeAppearanceOverlay.HabitTrackerANMP.Fab" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+    </style>
+    <style name="Theme.HabitTrackerANMP" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorOnPrimary">@color/theme_on_primary</item>
+        <item name="colorSecondaryContainer">@color/theme_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/theme_on_secondary_container</item>
+        <item name="android:windowBackground">@color/screen_background</item>
+    </style>
+</resources>

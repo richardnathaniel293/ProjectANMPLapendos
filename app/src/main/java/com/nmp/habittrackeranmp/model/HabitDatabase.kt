@@ -5,11 +5,13 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.nmp.habittrackeranmp.util.DB_NAME
+import com.nmp.habittrackeranmp.util.MIGRATION_1_2
 
-@Database(entities = [Habit::class], version = 1)
+@Database(entities = [Habit::class, User::class], version = 2, exportSchema = false)
 abstract class HabitDatabase : RoomDatabase() {
 
     abstract fun habitDao(): HabitDao
+    abstract fun userDao(): UserDao
 
     companion object {
         @Volatile
@@ -22,7 +24,10 @@ abstract class HabitDatabase : RoomDatabase() {
                     context.applicationContext,
                     HabitDatabase::class.java,
                     DB_NAME
-                ).build().also { instance = it }
+                )
+                    .addMigrations(MIGRATION_1_2)
+                    .build()
+                    .also { instance = it }
             }
         }
     }
