@@ -10,7 +10,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.nmp.habittrackeranmp.R
 import com.nmp.habittrackeranmp.databinding.FragmentDashboardBinding
-import com.nmp.habittrackeranmp.model.Habit
 import com.nmp.habittrackeranmp.view.adapter.HabitListAdapter
 import com.nmp.habittrackeranmp.viewmodel.DashboardViewModel
 
@@ -52,11 +51,14 @@ class DashboardFragment : Fragment() {
     private fun setupRecyclerView() {
         habitListAdapter = HabitListAdapter(
             arrayListOf(),
-            onPlusClick = { habit: Habit ->
-                viewModel.increaseProgress(habit.id)
+            onPlusClick = { habit ->
+                viewModel.increaseProgress(habit)
             },
-            onMinusClick = { habit: Habit ->
-                viewModel.decreaseProgress(habit.id)
+            onMinusClick = { habit ->
+                viewModel.decreaseProgress(habit)
+            },
+            onTitleClick = { habit ->
+                // pindah ke halaman Edit Habit dengan membawa habit.id
             }
         )
 

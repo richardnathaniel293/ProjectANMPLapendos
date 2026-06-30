@@ -8,12 +8,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.nmp.habittrackeranmp.R
 import com.nmp.habittrackeranmp.databinding.ItemHabitBinding
 import com.nmp.habittrackeranmp.model.Habit
+import com.nmp.habittrackeranmp.view.HabitListener
 
 class HabitListAdapter(
     private val habits: ArrayList<Habit>,
     private val onPlusClick: (Habit) -> Unit,
-    private val onMinusClick: (Habit) -> Unit
-) : RecyclerView.Adapter<HabitListAdapter.HabitViewHolder>() {
+    private val onMinusClick: (Habit) -> Unit,
+    private val onTitleClick: (Habit) -> Unit
+) : RecyclerView.Adapter<HabitListAdapter.HabitViewHolder>(), HabitListener {
 
     class HabitViewHolder(val binding: ItemHabitBinding) : RecyclerView.ViewHolder(binding.root)
 
@@ -30,20 +32,11 @@ class HabitListAdapter(
         val habit = habits[position]
         val context = holder.itemView.context
 
-        holder.binding.imgIcon.setImageResource(getHabitIcon(habit.icon))
-        holder.binding.txtHabitName.text = habit.name
-        holder.binding.txtHabitDescription.text = habit.description
-        holder.binding.txtProgressValue.text = context.getString(
-            R.string.habit_progress_detail_format,
-            habit.progress,
-            habit.goal,
-            habit.unit
-        )
-        holder.binding.progressHabit.max = habit.goal
-        holder.binding.progressHabit.progress = habit.progress
+        holder.binding.habit = habit
+        holder.binding.listener = this
+        holder.binding.executePendingBindings()
 
         if (habit.isCompleted) {
-            holder.binding.txtStatus.text = context.getString(R.string.completed)
             holder.binding.txtStatus.setBackgroundResource(R.drawable.bg_status_completed_chip)
             holder.binding.txtStatus.setTextColor(
                 ContextCompat.getColor(context, R.color.status_completed_text)
@@ -69,7 +62,6 @@ class HabitListAdapter(
                 ContextCompat.getColor(context, R.color.control_disabled_text)
             )
         } else {
-            holder.binding.txtStatus.text = context.getString(R.string.in_progress)
             holder.binding.txtStatus.setBackgroundResource(R.drawable.bg_status_in_progress_chip)
             holder.binding.txtStatus.setTextColor(
                 ContextCompat.getColor(context, R.color.status_in_progress_text)
@@ -93,13 +85,6 @@ class HabitListAdapter(
                 ContextCompat.getColor(context, R.color.control_minus_text)
             )
         }
-
-        holder.binding.btnPlus.setOnClickListener {
-            onPlusClick(habit)
-        }
-        holder.binding.btnMinus.setOnClickListener {
-            onMinusClick(habit)
-        }
     }
 
     override fun getItemCount(): Int {
@@ -112,13 +97,15 @@ class HabitListAdapter(
         notifyDataSetChanged()
     }
 
-    private fun getHabitIcon(icon: String): Int {
-        return when (icon) {
-            "Drink Water" -> R.drawable.ic_water
-            "Exercise" -> R.drawable.ic_fitness
-            "Read Books" -> R.drawable.ic_book
-            "Meditation" -> R.drawable.ic_meditation
-            else -> R.drawable.ic_water
-        }
+    override fun onPlus(habit: Habit) {
+        onPlusClick(habit)
+    }
+
+    override fun onMinus(habit: Habit) {
+        onMinusClick(habit)
+    }
+
+    override fun onTitle(habit: Habit) {
+        onTitleClick(habit)
     }
 }

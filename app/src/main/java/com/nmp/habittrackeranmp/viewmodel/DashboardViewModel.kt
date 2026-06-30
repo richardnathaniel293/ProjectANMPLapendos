@@ -2,49 +2,54 @@ package com.nmp.habittrackeranmp.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.nmp.habittrackeranmp.data.HabitRepository
 import com.nmp.habittrackeranmp.model.Habit
+import com.nmp.habittrackeranmp.util.buildDb
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.CoroutineScope
+import kotlin.coroutines.CoroutineContext
 
-class DashboardViewModel(application: Application) : AndroidViewModel(application) {
+class DashboardViewModel(application: Application) : AndroidViewModel(application), CoroutineScope {
 
-    private val repository = HabitRepository(application)
+    val habitsLD = MutableLiveData<List<Habit>>()
 
-    private val _habitsLD = MutableLiveData<ArrayList<Habit>>()
-    val habitsLD: LiveData<ArrayList<Habit>> = _habitsLD
-
-    init {
-        loadHabits()
-    }
+    private val job = Job()
+    override val coroutineContext: CoroutineContext
+        get() = job + Dispatchers.IO
 
     fun loadHabits() {
-        _habitsLD.value = ArrayList(repository.getHabits())
+        launch {
+            val db = buildDb(getApplication())
+            habitsLD.postValue(db.habitDao().selectAll())
+        }
     }
 
-    fun increaseProgress(habitId: Int) {
-        val list = repository.getHabits()
-        val index = list.indexOfFirst { it.id == habitId }
-        if (index == -1) return
-
-        val habit = list[index]
-        if (habit.progress >= habit.goal) return
-
-        list[index] = habit.copy(progress = habit.progress + 1)
-        repository.saveHabits(list)
-        loadHabits()
+    fun increaseProgress(habit: Habit) {
+        launch {
+            val db = buildDb(getApplication())
+            if (habit.progress < habit.goal) {
+                habit.progress += 1
+                db.habitDao().update(habit)
+            }
+            habitsLD.postValue(db.habitDao().selectAll())
+        }
     }
 
-    fun decreaseProgress(habitId: Int) {
-        val list = repository.getHabits()
-        val index = list.indexOfFirst { it.id == habitId }
-        if (index == -1) return
+    fun decreaseProgress(habit: Habit) {
+        launch {
+            val db = buildDb(getApplication())
+            if (habit.progress > 0) {
+                habit.progress -= 1
+                db.habitDao().update(habit)
+            }
+            habitsLD.postValue(db.habitDao().selectAll())
+        }
+    }
 
-        val habit = list[index]
-        if (habit.progress <= 0) return
-
-        list[index] = habit.copy(progress = habit.progress - 1)
-        repository.saveHabits(list)
-        loadHabits()
+    override fun onCleared() {
+        super.onCleared()
+        job.cancel()
     }
 }

@@ -4,18 +4,25 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.nmp.habittrackeranmp.data.HabitRepository
 import com.nmp.habittrackeranmp.model.Habit
+import com.nmp.habittrackeranmp.util.buildDb
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
+import kotlin.coroutines.CoroutineContext
 
-class NewHabitViewModel(application: Application) : AndroidViewModel(application) {
-
-    private val repository = HabitRepository(application)
+class NewHabitViewModel(application: Application) : AndroidViewModel(application), CoroutineScope {
 
     private val _createSuccess = MutableLiveData<Boolean>()
     val createSuccess: LiveData<Boolean> = _createSuccess
 
     private val _errorMessage = MutableLiveData<String?>()
     val errorMessage: LiveData<String?> = _errorMessage
+
+    private val job = Job()
+    override val coroutineContext: CoroutineContext
+        get() = job + Dispatchers.IO
 
     fun createHabit(
         name: String,
@@ -29,7 +36,6 @@ class NewHabitViewModel(application: Application) : AndroidViewModel(application
         }
 
         val habit = Habit(
-            id = System.currentTimeMillis().toInt(),
             icon = icon,
             name = name,
             description = description,
@@ -38,9 +44,16 @@ class NewHabitViewModel(application: Application) : AndroidViewModel(application
             progress = 0
         )
 
-        repository.addHabit(habit)
+        launch {
+            val db = buildDb(getApplication())
+            db.habitDao().insert(habit)
+            _errorMessage.postValue(null)
+            _createSuccess.postValue(true)
+        }
+    }
 
-        _errorMessage.value = null
-        _createSuccess.value = true
+    override fun onCleared() {
+        super.onCleared()
+        job.cancel()
     }
 }
