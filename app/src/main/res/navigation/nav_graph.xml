@@ -29,6 +29,10 @@
             android:id="@+id/action_dashboardFragment_to_newHabitFragment"
             app:destination="@id/newHabitFragment" />
 
+        <action
+            android:id="@+id/action_dashboardFragment_to_editHabitFragment"
+            app:destination="@id/editHabitFragment" />
+
     </fragment>
 
     <fragment
@@ -36,5 +40,17 @@
         android:name="com.nmp.habittrackeranmp.view.NewHabitFragment"
         android:label="New Habit"
         tools:layout="@layout/fragment_new_habit" />
+
+    <fragment
+        android:id="@+id/editHabitFragment"
+        android:name="com.nmp.habittrackeranmp.view.EditHabitFragment"
+        android:label="Edit Habit"
+        tools:layout="@layout/fragment_edit_habit">
+
+        <argument
+            android:name="habitId"
+            app:argType="integer" />
+
+    </fragment>
 
 </navigation>

@@ -6,6 +6,7 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import com.nmp.habittrackeranmp.databinding.FragmentEditHabitBindingImpl;
 import com.nmp.habittrackeranmp.databinding.ItemHabitBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -18,11 +19,14 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_ITEMHABIT = 1;
+  private static final int LAYOUT_FRAGMENTEDITHABIT = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_ITEMHABIT = 2;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.nmp.habittrackeranmp.R.layout.fragment_edit_habit, LAYOUT_FRAGMENTEDITHABIT);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.nmp.habittrackeranmp.R.layout.item_habit, LAYOUT_ITEMHABIT);
   }
 
@@ -35,6 +39,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
+        case  LAYOUT_FRAGMENTEDITHABIT: {
+          if ("layout/fragment_edit_habit_0".equals(tag)) {
+            return new FragmentEditHabitBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_edit_habit is invalid. Received: " + tag);
+        }
         case  LAYOUT_ITEMHABIT: {
           if ("layout/item_habit_0".equals(tag)) {
             return new ItemHabitBindingImpl(component, view);
@@ -86,19 +96,21 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(3);
+    static final SparseArray<String> sKeys = new SparseArray<String>(4);
 
     static {
       sKeys.put(0, "_all");
       sKeys.put(1, "habit");
       sKeys.put(2, "listener");
+      sKeys.put(3, "viewModel");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
+      sKeys.put("layout/fragment_edit_habit_0", com.nmp.habittrackeranmp.R.layout.fragment_edit_habit);
       sKeys.put("layout/item_habit_0", com.nmp.habittrackeranmp.R.layout.item_habit);
     }
   }

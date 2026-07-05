@@ -3251,6 +3251,7 @@ id action_bar_subtitle
 id action_bar_title
 id action_container
 id action_context_bar
+id action_dashboardFragment_to_editHabitFragment
 id action_dashboardFragment_to_newHabitFragment
 id action_divider
 id action_image
@@ -3299,10 +3300,12 @@ id btnCreateHabit
 id btnLogin
 id btnMinus
 id btnPlus
+id btnSubmit
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardEditHabit
 id cardHabit
 id cardIcon
 id cardNewHabit
@@ -3377,6 +3380,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editHabitFragment
 id edit_query
 id edit_text_id
 id edtPassword
@@ -3602,6 +3606,7 @@ id sawtooth
 id scale
 id screen
 id scroll
+id scrollEditHabit
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollNewHabit
@@ -3715,6 +3720,7 @@ id txtAddNewHabit
 id txtChooseIcon
 id txtCompletedMark
 id txtDashboardTitle
+id txtEditHabitHeader
 id txtEmptyState
 id txtGoal
 id txtGoalHelper
@@ -3886,6 +3892,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_dashboard
+layout fragment_edit_habit
 layout fragment_login
 layout fragment_new_habit
 layout ime_base_split_test_activity
@@ -4014,6 +4021,8 @@ string create_new_habit
 string dashboard_empty_state
 string dashboard_title
 string dest_title
+string edit_habit_header
+string edit_habit_title
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -4155,6 +4164,7 @@ string side_sheet_behavior
 string status_bar_notification_info_overflow
 string unit_helper
 string unit_required
+string update_habit
 string username
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

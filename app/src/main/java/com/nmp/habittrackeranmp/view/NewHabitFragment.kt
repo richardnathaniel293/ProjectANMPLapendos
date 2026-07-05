@@ -41,9 +41,10 @@ class NewHabitFragment : Fragment() {
             val name = binding.txtHabitName.text.toString()
             val desc = binding.txtHabitDescription.text.toString()
             val goal = binding.txtGoal.text.toString().toIntOrNull() ?: 0
+            val unit = binding.txtUnit.text.toString()
             val icon = binding.spIcon.selectedItem.toString()
 
-            viewModel.createHabit(name, desc, goal, icon)
+            viewModel.createHabit(name, desc, goal, unit, icon)
         }
 
         observeViewModel()

@@ -28,6 +28,7 @@ class NewHabitViewModel(application: Application) : AndroidViewModel(application
         name: String,
         description: String,
         goal: Int,
+        unit: String,
         icon: String
     ) {
         if (name.isEmpty() || description.isEmpty() || goal <= 0) {
@@ -39,7 +40,7 @@ class NewHabitViewModel(application: Application) : AndroidViewModel(application
             icon = icon,
             name = name,
             description = description,
-            unit = "times",
+            unit = unit,
             goal = goal,
             progress = 0
         )

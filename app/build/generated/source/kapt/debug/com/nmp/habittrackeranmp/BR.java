@@ -6,4 +6,6 @@ public class BR {
   public static final int habit = 1;
 
   public static final int listener = 2;
+
+  public static final int viewModel = 3;
 }

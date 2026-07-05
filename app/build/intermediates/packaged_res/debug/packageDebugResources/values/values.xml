@@ -39,6 +39,8 @@
     <string name="create_new_habit">Create New Habit</string>
     <string name="dashboard_empty_state">Belum ada habit. Tekan tombol + untuk menambahkan habit baru.</string>
     <string name="dashboard_title">Dashboard</string>
+    <string name="edit_habit_header">Edit Your Habit</string>
+    <string name="edit_habit_title">Edit Habit</string>
     <string name="goal_helper">How many to complete this task?</string>
     <string name="habit_description">Short Description</string>
     <string name="habit_description_required">Short Description *</string>
@@ -58,6 +60,7 @@
     <string name="select_icon">Select Icon *</string>
     <string name="unit_helper">e.g. glasses, minutes, pages, meals</string>
     <string name="unit_required">Unit *</string>
+    <string name="update_habit">Update Habit</string>
     <string name="username">Username</string>
     <style name="ShapeAppearanceOverlay.HabitTrackerANMP.Fab" parent="">
         <item name="cornerFamily">rounded</item>

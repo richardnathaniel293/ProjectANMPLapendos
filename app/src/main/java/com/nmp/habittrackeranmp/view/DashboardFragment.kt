@@ -58,7 +58,9 @@ class DashboardFragment : Fragment() {
                 viewModel.decreaseProgress(habit)
             },
             onTitleClick = { habit ->
-                // pindah ke halaman Edit Habit dengan membawa habit.id
+                val action = DashboardFragmentDirections
+                    .actionDashboardFragmentToEditHabitFragment(habit.id)
+                findNavController().navigate(action)
             }
         )
 
