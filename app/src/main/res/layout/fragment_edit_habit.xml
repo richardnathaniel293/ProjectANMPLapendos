@@ -44,7 +44,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Update Habit"
+                android:text="@string/update_habit"
                 android:textColor="@android:color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -85,7 +85,7 @@
                             android:id="@+id/txtEditHabitHeader"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Habit Data"
+                            android:text="@string/habit_data"
                             android:textColor="@color/text_primary"
                             android:textSize="18sp"
                             android:textStyle="bold" />
